@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 // The Prismic API endpoint
-import { repositoryName } from './slicemachine.config.json';
+const { repositoryName } = require('./slicemachine.config.json');
 const API_ENDPOINT = `https://${repositoryName}.cdn.prismic.io/api/v2`;
 
 // The hostname of the website, for example it would be https://example.com
@@ -37,4 +37,4 @@ const nextConfig = {
 	}
 };
 
-export default isProduction ? withPrismicSitemap(nextConfig) : nextConfig;
+module.exports = isProduction ? withPrismicSitemap(nextConfig) : nextConfig;
