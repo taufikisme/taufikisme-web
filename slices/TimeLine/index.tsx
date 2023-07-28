@@ -2,11 +2,13 @@ import React from 'react';
 import { Content, isFilled } from '@prismicio/client';
 import { SliceComponentProps } from '@prismicio/react';
 import clsx from 'clsx';
-import GlassMorphWrapper from '@components/GlassmorphWrapper';
 import SectionHeading from '@components/SectionHeading';
 import { PrismicRichText } from '@prismicio/react';
 import RoundBlur from '@components/assets/RoundBlur';
 import GradientSeparator from '@components/GradientSeparator';
+import dynamic from 'next/dynamic';
+
+const GlassMorphWrapper = dynamic(() => import('@components/GlassMorphWrapper'));
 
 /**
  * Props for `TimeLine`.

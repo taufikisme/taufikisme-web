@@ -6,7 +6,8 @@ import RoundBlur from '@components/assets/RoundBlur';
 import { PrismicRichText } from '@prismicio/react';
 import Link from 'next/link';
 import GradientSeparator from '@components/GradientSeparator';
-import GlassMorphWrapper from '@components/GlassmorphWrapper';
+import dynamic from 'next/dynamic';
+const GlassMorphWrapper = dynamic(() => import('@components/GlassMorphWrapper'));
 
 /**
  * Props for `Hero`.

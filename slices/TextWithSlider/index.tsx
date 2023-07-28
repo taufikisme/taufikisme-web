@@ -6,9 +6,11 @@ import clsx from 'clsx';
 import GradientSeparator from '@components/GradientSeparator';
 
 import RoundBlur from '@components/assets/RoundBlur';
-import GlassMorphWrapper from '@components/GlassmorphWrapper';
 import Slider from './components/Slider';
 import SectionHeading from '@components/SectionHeading';
+import dynamic from 'next/dynamic';
+
+const GlassMorphWrapper = dynamic(() => import('@components/GlassMorphWrapper'));
 
 /**
  * Props for `TextWithSlider`.

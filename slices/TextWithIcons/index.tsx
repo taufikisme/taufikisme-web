@@ -1,7 +1,6 @@
 import React from 'react';
 import { Content, isFilled } from '@prismicio/client';
 import { SliceComponentProps } from '@prismicio/react';
-import GlassMorphWrapper from '@components/GlassmorphWrapper';
 import clsx from 'clsx';
 import GradientSeparator from '@components/GradientSeparator';
 import SectionHeading from '@components/SectionHeading';
@@ -9,6 +8,9 @@ import RoundBlur from '@components/assets/RoundBlur';
 import Link from 'next/link';
 import RightLeftShadow from '@components/RightLeftShadow';
 import PrismicNextImage from '@components/_shared/PrismicNextImage';
+import dynamic from 'next/dynamic';
+
+const GlassMorphWrapper = dynamic(() => import('@components/GlassMorphWrapper'));
 
 /**
  * Props for `TextWithIcons`.
