@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 // The Prismic API endpoint
-const { repositoryName } = require('./slicemachine.config.json');
+import { repositoryName } from './slicemachine.config.json';
 const API_ENDPOINT = `https://${repositoryName}.cdn.prismic.io/api/v2`;
 
 // The hostname of the website, for example it would be https://example.com
@@ -32,14 +32,9 @@ const withPrismicSitemap = require('@reecem/prismic-sitemap')({
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	reactStrictMode: true,
-	// i18n: {
-	// 	locales: ['en', 'is'],
-	// 	defaultLocale: 'en',
-	// 	localeDetection: false
-	// },
 	images: {
 		domains: ['images.prismic.io']
 	}
 };
 
-module.exports = isProduction ? withPrismicSitemap(nextConfig) : nextConfig;
+export default isProduction ? withPrismicSitemap(nextConfig) : nextConfig;
