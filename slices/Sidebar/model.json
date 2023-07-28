@@ -1,0 +1,29 @@
+{
+  "id": "sidebar",
+  "type": "SharedSlice",
+  "name": "Sidebar",
+  "description": "Sidebar",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {
+        "text": { "type": "Text", "config": { "label": "Text", "placeholder": "" } },
+        "link": {
+          "type": "Link",
+          "config": {
+            "label": "Link",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "select": null
+          }
+        }
+      }
+    }
+  ]
+}

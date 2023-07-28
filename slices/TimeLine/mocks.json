@@ -1,0 +1,78 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"subheading": {
+				"__TYPE__": "FieldContent",
+				"value": "sleep",
+				"type": "Text"
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Visit"
+						}
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Commodo ullamco velit velit minim non voluptate velit aliquip labore consequat."
+						}
+					}
+				]
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"year",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "vertical",
+							"type": "Text"
+						}
+					],
+					[
+						"heading",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "heading3",
+									"content": {
+										"text": "Field"
+									}
+								}
+							]
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Excepteur ea labore ea est incididunt magna amet ut minim nostrud nulla ullamco elit consectetur."
+									}
+								}
+							]
+						}
+					]
+				]
+			}
+		]
+	}
+]

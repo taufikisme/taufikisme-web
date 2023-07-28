@@ -1,0 +1,13 @@
+[
+  {
+    "uid": {
+      "__TYPE__": "UIDContent",
+      "value": "break"
+    },
+    "route": {
+      "__TYPE__": "FieldContent",
+      "value": "horn",
+      "type": "Text"
+    }
+  }
+]

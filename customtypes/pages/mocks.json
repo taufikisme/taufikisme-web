@@ -1,0 +1,116 @@
+[
+  {
+    "uid": {
+      "__TYPE__": "UIDContent",
+      "value": "leg"
+    },
+    "htmlTitle": {
+      "__TYPE__": "FieldContent",
+      "value": "breeze",
+      "type": "Text"
+    },
+    "route": {
+      "__TYPE__": "FieldContent",
+      "value": "out",
+      "type": "Text"
+    },
+    "layout": {
+      "__TYPE__": "LinkContent",
+      "value": {
+        "__TYPE__": "DocumentLink",
+        "id": "mock_document_id"
+      }
+    },
+    "slices": {
+      "__TYPE__": "SliceContentType",
+      "value": [
+        {
+          "key": "image$e69f7d54-4298-4b6c-8fe5-f80f49f769a0",
+          "name": "image",
+          "widget": {
+            "__TYPE__": "SharedSliceContent",
+            "variation": "default",
+            "primary": {
+              "title": {
+                "__TYPE__": "StructuredTextContent",
+                "value": [
+                  {
+                    "type": "heading1",
+                    "content": {
+                      "text": "Steady"
+                    }
+                  }
+                ]
+              },
+              "image": {
+                "__TYPE__": "ImageContent",
+                "origin": {
+                  "id": "main",
+                  "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
+                  "width": 5616,
+                  "height": 3744
+                },
+                "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
+                "width": 5616,
+                "height": 3744,
+                "edit": {
+                  "zoom": 1,
+                  "crop": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "background": "transparent"
+                },
+                "thumbnails": {}
+              }
+            },
+            "items": [
+              {
+                "__TYPE__": "GroupItemContent",
+                "value": []
+              }
+            ]
+          }
+        },
+        {
+          "key": "paragraph$54353a6a-329d-4b5e-a696-830ee9587d54",
+          "name": "paragraph",
+          "widget": {
+            "__TYPE__": "SharedSliceContent",
+            "variation": "default",
+            "primary": {
+              "title": {
+                "__TYPE__": "StructuredTextContent",
+                "value": [
+                  {
+                    "type": "heading1",
+                    "content": {
+                      "text": "Image"
+                    }
+                  }
+                ]
+              },
+              "description": {
+                "__TYPE__": "StructuredTextContent",
+                "value": [
+                  {
+                    "type": "paragraph",
+                    "content": {
+                      "text": "Nisi incididunt aliqua et sint."
+                    }
+                  }
+                ]
+              }
+            },
+            "items": [
+              {
+                "__TYPE__": "GroupItemContent",
+                "value": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

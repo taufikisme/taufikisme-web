@@ -1,0 +1,40 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"text",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "fence",
+							"type": "Text"
+						}
+					],
+					[
+						"link",
+						{
+							"__TYPE__": "LinkContent",
+							"value": {
+								"__TYPE__": "ExternalLink",
+								"url": "http://google.com"
+							}
+						}
+					],
+					[
+						"type",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "default",
+							"type": "Select"
+						}
+					]
+				]
+			}
+		]
+	}
+]

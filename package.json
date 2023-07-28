@@ -1,0 +1,45 @@
+{
+	"name": "next-prismic-boilerplate",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "concurrently \"npm:next:dev\" \"npm:slicemachine\" --names \"next,slicemachine\" --prefix-colors blue,magenta",
+		"next:dev": "next",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"slicemachine": "start-slicemachine"
+	},
+	"dependencies": {
+		"@prismicio/client": "^7.1.0",
+		"@prismicio/next": "^1.3.2",
+		"@prismicio/react": "^2.7.1",
+		"@prismicio/slice-simulator-react": "^0.2.2",
+		"@reecem/prismic-sitemap": "^0.4.3",
+		"@typescript-eslint/eslint-plugin": "^5.22.0",
+		"@typescript-eslint/parser": "^5.22.0",
+		"clsx": "^1.2.1",
+		"next": "^13.4.7",
+		"nextjs-progressbar": "^0.0.14",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-icons": "^4.3.1",
+		"react-parallax-tilt": "^1.7.154",
+		"swiper": "^10.0.4"
+	},
+	"devDependencies": {
+		"@slicemachine/adapter-next": "^0.3.7",
+		"@types/node": "^17.0.31",
+		"@types/react": "^18.0.9",
+		"@types/react-dom": "^18.0.3",
+		"autoprefixer": "^10.4.7",
+		"concurrently": "^7.3.0",
+		"eslint": "8.15.0",
+		"eslint-config-next": "^13.4.7",
+		"postcss": "^8.4.13",
+		"postcss-import": "^15.0.0",
+		"slice-machine-ui": "^1.6.0",
+		"tailwindcss": "^3.0.24",
+		"typescript": "^4.6.4"
+	}
+}

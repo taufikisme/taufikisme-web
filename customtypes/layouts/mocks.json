@@ -1,0 +1,140 @@
+[
+  {
+    "uid": {
+      "__TYPE__": "UIDContent",
+      "value": "face"
+    },
+    "slices": {
+      "__TYPE__": "SliceContentType",
+      "value": [
+        {
+          "key": "footer_main$d36cd056-2a48-458e-8958-cdcf8d5540ed",
+          "name": "footer_main",
+          "widget": {
+            "__TYPE__": "SharedSliceContent",
+            "variation": "default",
+            "primary": {
+              "logo": {
+                "__TYPE__": "ImageContent",
+                "origin": {
+                  "id": "main",
+                  "url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+                  "width": 5848,
+                  "height": 3899
+                },
+                "url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+                "width": 5848,
+                "height": 3899,
+                "edit": {
+                  "zoom": 1,
+                  "crop": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "background": "transparent"
+                },
+                "thumbnails": {}
+              }
+            },
+            "items": [
+              {
+                "__TYPE__": "GroupItemContent",
+                "value": [
+                  [
+                    "text",
+                    {
+                      "__TYPE__": "FieldContent",
+                      "value": "cry",
+                      "type": "Text"
+                    }
+                  ],
+                  [
+                    "link",
+                    {
+                      "__TYPE__": "LinkContent",
+                      "value": {
+                        "__TYPE__": "ExternalLink",
+                        "url": "https://slicemachine.dev"
+                      }
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "navbar_main$4c1e3ae9-7f0a-474a-8ab5-79bae2e0d33f",
+          "name": "navbar_main",
+          "widget": {
+            "__TYPE__": "SharedSliceContent",
+            "variation": "default",
+            "primary": {
+              "logo": {
+                "__TYPE__": "ImageContent",
+                "origin": {
+                  "id": "main",
+                  "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869",
+                  "width": 3199,
+                  "height": 3199
+                },
+                "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869",
+                "width": 3199,
+                "height": 3199,
+                "edit": {
+                  "zoom": 1,
+                  "crop": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "background": "transparent"
+                },
+                "thumbnails": {}
+              }
+            },
+            "items": [
+              {
+                "__TYPE__": "GroupItemContent",
+                "value": [
+                  [
+                    "text",
+                    {
+                      "__TYPE__": "FieldContent",
+                      "value": "interior",
+                      "type": "Text"
+                    }
+                  ],
+                  [
+                    "link",
+                    {
+                      "__TYPE__": "LinkContent",
+                      "value": {
+                        "__TYPE__": "ExternalLink",
+                        "url": "http://google.com"
+                      }
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key": "children$80cb0151-0c04-432f-a007-636fc2aa2c6e",
+          "name": "children",
+          "widget": {
+            "__TYPE__": "SharedSliceContent",
+            "variation": "default",
+            "primary": {},
+            "items": [
+              {
+                "__TYPE__": "GroupItemContent",
+                "value": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

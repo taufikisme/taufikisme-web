@@ -1,0 +1,34 @@
+{
+  "id": "pages",
+  "label": "Pages",
+  "repeatable": true,
+  "status": true,
+  "format": "page",
+  "json": {
+    "Main": {
+      "uid": { "config": { "label": "Uid", "placeholder": "" }, "type": "UID" },
+      "html_title": { "config": { "label": "Html Title", "placeholder": "" }, "type": "Text" },
+      "route": { "type": "Text", "config": { "label": "Route", "placeholder": "" } },
+      "layout": {
+        "config": { "label": "Layout", "customtypes": ["layouts"], "select": "document" },
+        "type": "Link"
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "image": { "type": "SharedSlice" },
+            "paragraph": { "type": "SharedSlice" },
+            "hero": { "type": "SharedSlice" },
+            "company_list": { "type": "SharedSlice" },
+            "text_with_slider": { "type": "SharedSlice" },
+            "text_with_icons": { "type": "SharedSlice" },
+            "time_line": { "type": "SharedSlice" },
+            "portfolio": { "type": "SharedSlice" }
+          }
+        }
+      }
+    }
+  }
+}

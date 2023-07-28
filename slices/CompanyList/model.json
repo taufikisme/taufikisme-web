@@ -1,0 +1,29 @@
+{
+  "id": "company_list",
+  "type": "SharedSlice",
+  "name": "CompanyList",
+  "description": "CompanyList",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "subheading": { "type": "Text", "config": { "label": "Subheading", "placeholder": "" } }
+      },
+      "items": {
+        "image": {
+          "type": "Image",
+          "config": { "label": "Image", "constraint": {}, "thumbnails": [] }
+        },
+        "company_url": {
+          "type": "Link",
+          "config": { "label": "Company URL", "placeholder": "", "select": null }
+        }
+      }
+    }
+  ]
+}

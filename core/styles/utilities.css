@@ -1,0 +1,151 @@
+@layer utilities {
+	.flex-cc {
+		@apply flex justify-center items-center;
+	}
+	.flex-cs {
+		@apply flex justify-center items-start;
+	}
+	.flex-ce {
+		@apply flex justify-center items-end;
+	}
+
+	.flex-bc {
+		@apply flex justify-between items-center;
+	}
+	.flex-bs {
+		@apply flex justify-between items-start;
+	}
+	.flex-be {
+		@apply flex justify-between items-end;
+	}
+
+	.flex-sc {
+		@apply flex justify-start items-center;
+	}
+	.flex-ss {
+		@apply flex justify-start items-start;
+	}
+	.flex-se {
+		@apply flex justify-start items-end;
+	}
+
+	.flex-ec {
+		@apply flex justify-end items-center;
+	}
+	.flex-es {
+		@apply flex justify-end items-start;
+	}
+	.flex-ee {
+		@apply flex justify-end items-end;
+	}
+
+	.flex-vc {
+		@apply flex justify-evenly items-center;
+	}
+	.flex-vs {
+		@apply flex justify-evenly items-start;
+	}
+	.flex-ve {
+		@apply flex justify-evenly items-end;
+	}
+
+	.flex-ac {
+		@apply flex justify-around items-center;
+	}
+	.flex-as {
+		@apply flex justify-around items-start;
+	}
+	.flex-ae {
+		@apply flex justify-around items-end;
+	}
+
+	.col {
+		@apply flex-col;
+	}
+
+	.full {
+		@apply w-full h-full;
+	}
+	.fullscreen {
+		@apply fixed full inset-0;
+	}
+	.stroked {
+		-webkit-text-stroke: 0.4px;
+	}
+
+	.text-gradient-green {
+		background: linear-gradient(to right, rgba(180, 212, 42, 1) -50%, #ffffff);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	.bg-as-text-color {
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	.marquee {
+		position: absolute;
+		animation: marquee 15s linear infinite;
+	}
+
+	.marquee:hover {
+		animation-play-state: paused;
+	}
+
+	@keyframes marquee {
+		from {
+			transform: translateX(0);
+		}
+		to {
+			transform: translateX(-34.5%);
+		}
+	}
+
+	.animate-down-up {
+		animation: down-and-up 3s alternate infinite;
+	}
+
+	@keyframes down-and-up {
+		from {
+			transform: translateY(0);
+		}
+		to {
+			transform: translateY(50%);
+		}
+	}
+
+	.animate-up-down {
+		animation: up-and-down 3s alternate infinite;
+	}
+
+	@keyframes up-and-down {
+		from {
+			transform: translateY(0);
+		}
+		to {
+			transform: translateY(-50%);
+		}
+	}
+
+	.border-gradient {
+		width: 100%;
+		height: 100%;
+		background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0));
+	}
+
+	.border-gradient::before {
+		content: '';
+		position: absolute;
+		background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0));
+		top: -10px;
+		bottom: -10px;
+		right: -10px;
+		left: -10px;
+		z-index: -1;
+	}
+
+	.default-wrapper {
+		@apply w-full max-w-[1500px] relative;
+	}
+}
