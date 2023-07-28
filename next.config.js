@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
 // The Prismic API endpoint
 const { repositoryName } = require('./slicemachine.config.json');
 const API_ENDPOINT = `https://${repositoryName}.cdn.prismic.io/api/v2`;

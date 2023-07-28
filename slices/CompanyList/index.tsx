@@ -8,8 +8,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import GradientSeparator from '@components/GradientSeparator';
 import RightLeftShadow from '@components/RightLeftShadow';
-
-import GlassMorphWrapper from '@components/GlassmorphWrapper';
+import dynamic from 'next/dynamic';
+const GlassMorphWrapper = dynamic(() => import('@components/GlassMorphWrapper'));
 
 /**
  * Props for `CompanyList`.
