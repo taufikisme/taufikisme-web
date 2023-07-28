@@ -1,5 +1,6 @@
 'use client';
 
+import React from 'react';
 import { SliceSimulator } from '@slicemachine/adapter-next/simulator';
 import { SliceZone } from '@prismicio/react';
 
