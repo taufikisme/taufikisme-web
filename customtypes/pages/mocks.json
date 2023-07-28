@@ -4,7 +4,7 @@
       "__TYPE__": "UIDContent",
       "value": "leg"
     },
-    "htmlTitle": {
+    "html_title": {
       "__TYPE__": "FieldContent",
       "value": "breeze",
       "type": "Text"
